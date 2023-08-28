@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cerave</title>
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header id="header">
+      <img src="./cerave-logo-top.svg" id="header-img" />
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#features">Featuress</a></li>
+          <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="banner">
+        <h1>Cerave Foaming Facial Cleanser</h1>
+        <img src="./foamingfacialcleanser700x875_3.webp" id="product-img" />
+      </section>
+      <section id="features" class="newclass">
+        <h2>Product's Features</h2>
+        <div class="feature--1 flex">
+          <img src="./d-foaming.webp" class="feature-img" />
+          <div class="feature-content">
+            <h4>Foaming Action</h4>
+            <p>Gently refreshes and cleanses</p>
+          </div>
+        </div>
+        <div class="feature--2 flex">
+          <img src="./d-niacinamide.webp" class="feature-img" />
+          <div class="feature-content">
+            <h4>Niacinamide</h4>
+            <p>Help calm skin</p>
+          </div>
+        </div>
+        <div class="feature--3 flex">
+          <img src="./d-wont-clog-pores.webp" class="feature-img" />
+          <div class="feature-content">
+            <h4>Non-Comedogenic</h4>
+            <p>Won't clog pores</p>
+          </div>
+        </div>
+      </section>
+      <section id="how-it-works">
+        <h2>How It Works</h2>
+        <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/ebl5LLtuQe4?si=f5l5KYMNjUfEvCi7"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <section id="pricing">
+        <h2>Pricing</h2>
+        <div class="flexbox">
+          <div class="box--1 box">
+            <h4>Size 3oz</h4>
+            <p class="price">$6.99</p>
+            <img src="./size-3oz.webp" class="price-img" />
+            <button>Select</button>
+          </div>
+          <div class="box--2 box">
+            <h4>Size 12oz</h4>
+            <p class="price">$8.99</p>
+            <img src="./size-12oz.jpeg" class="price-img" />
+            <button>Select</button>
+          </div>
+          <div class="box--3 box">
+            <h4>Size 16oz</h4>
+            <p class="price">$9.99</p>
+            <img src="./size-16oz.jpeg" class="price-img" />
+            <button>Select</button>
+          </div>
+        </div>
+      </section>
+      <section id="subscribe">
+        <h3>Subscribe to our newest deals and products</h3>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            type="email"
+            placeholder="Enter your email here"
+            id="email"
+            name="email"
+          />
+          <input type="submit" id="submit" />
+        </form>
+      </section>
+      <footer>
+        <ul class="footer">
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Term</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <p>Copyright 2023, Cerave</p>
+      </footer>
+    </main>
+  </body>
+</html>

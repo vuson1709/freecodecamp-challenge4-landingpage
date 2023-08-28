@@ -1,0 +1,191 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  color: black;
+  box-sizing: border-box;
+  background-color: #fbc95c;
+  min-width: 500px;
+  margin-top: 70px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 5px;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+#features,
+#how-it-works,
+#pricing,
+#subscribe,
+footer {
+  margin-top: 50px;
+  padding: 15px 0;
+}
+
+/* ================== HEADER ================== */
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 20px;
+  border-bottom: 1px solid gray;
+  background-color: #f06a47;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+#header-img {
+  max-width: 200px;
+}
+
+#nav-bar ul {
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+}
+
+#nav-bar li {
+  list-style-type: none;
+  padding-right: 50px;
+}
+
+#nav-bar a {
+  color: black;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 700px) {
+  #header {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+/* ================== BANNER ================== */
+#banner {
+  margin: 10px 0;
+}
+
+#product-img {
+  display: block;
+  margin: 0 auto;
+  max-width: 50%;
+}
+
+/* ================== FEATURES ================== */
+#features {
+  background-color: #0772ba;
+}
+
+.newclass::before {
+  content: "";
+  display: block;
+  height: 110px;
+  margin-top: -110px;
+  z-index: 10;
+  background-color: red;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px auto;
+}
+
+.feature-img {
+  width: 100px;
+}
+
+.feature-content {
+  padding-left: 30px;
+  width: 300px;
+}
+
+/* ================== HOW IT WORKS ================== */
+
+#video {
+  display: block;
+  margin: 0 auto;
+}
+
+/* ================== PRICING ================== */
+#pricing {
+  background-color: #0772ba;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px auto;
+  text-align: center;
+}
+
+.box {
+  width: 20%;
+  margin: 10px 20px;
+  padding: 10px;
+  border: 1px solid #0772ba;
+  background-color: #fbc95c;
+  border-radius: 5px;
+}
+
+.box button {
+  width: 100px;
+}
+
+.price-img {
+  display: block;
+  max-width: 100%;
+  margin: 30px 0;
+}
+
+.price {
+  border-bottom: 1px solid black;
+}
+
+/* ================== SUBSCRIBE ================== */
+#subscribe {
+  text-align: center;
+}
+
+/* ================== FOOTER ================== */
+footer {
+  background-color: #0772ba;
+  padding: 5px 30px;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer li {
+  list-style-type: none;
+}
+
+.footer a {
+  color: black;
+  text-decoration: none;
+  padding-left: 30px;
+}
+
+footer p {
+  text-align: right;
+}
